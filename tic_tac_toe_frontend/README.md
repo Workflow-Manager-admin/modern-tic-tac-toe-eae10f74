@@ -18,7 +18,14 @@ In the project directory, you can run:
 Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm test`
+### OpenAI Integration
+
+To use the OpenAI Tic Tac Toe assistant chat feature, create a `.env` file in this folder with:
+```
+REACT_APP_OPENAI_API_KEY=sk-...
+```
+Replace `sk-...` with your OpenAI API key.<br>
+The assistant answers questions about Tic Tac Toe and gameplay rules.
 
 Launches the test runner in interactive watch mode.
 
